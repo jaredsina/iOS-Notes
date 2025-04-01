@@ -1,0 +1,48 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# CocoaPods
+Pods/
+*.lock
+podfile.lock
+
+# Carthage
+Carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Archives
+*.xcarchive
+
+# Temporary Files
+*.swp
+*.swo
+*.swn
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Simulator
+Library/Developer/CoreSimulator/
+
