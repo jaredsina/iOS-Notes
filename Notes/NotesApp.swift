@@ -8,6 +8,10 @@
 import SwiftUI
 import SwiftData
 
+/// struct is like a class in that it encapsulates properties and behaviors (methods)
+/// Difference being struct are copied not referenced
+/// The type of NotesApp is App which is required by swiftui
+/// define where the app starts with @main
 @main
 struct NotesApp: App {
     var sharedModelContainer: ModelContainer = {
