@@ -30,6 +30,7 @@ struct NotesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            //WelcomePage()
         }
         .modelContainer(sharedModelContainer)
     }

@@ -142,7 +142,7 @@ struct Note: View {
                 
             }.frame(maxWidth: .infinity,alignment: .leading).padding(.top,8)
            
-        }.frame(width: 300,height:100)
+        }.frame(width: 300,height:100).onTapGesture{print("tapped")}
     }
 }
 
